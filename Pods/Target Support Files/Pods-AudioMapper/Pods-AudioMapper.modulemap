@@ -1,0 +1,6 @@
+framework module Pods_AudioMapper {
+  umbrella header "Pods-AudioMapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
