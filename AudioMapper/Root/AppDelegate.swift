@@ -18,12 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
                 
         window = UIWindow(frame: UIScreen.main.bounds)
-//        let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-//        if let rootVC:AMRootViewController = storyboard.instantiateViewController(withIdentifier: "AMRootVC") as? AMRootViewController {
-//            window?.rootViewController = rootVC
-//        }
-        let rootVC: AMContactsViewController = AMContactsViewController(style: UITableViewStyle.plain)
-        window?.rootViewController = rootVC
+
+        let rootVC: AMRootViewController = AMRootViewController()
+        window?.rootViewController = UINavigationController(rootViewController: rootVC)
         window?.makeKeyAndVisible()
         
         return true
@@ -37,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-        AMCoreDataStack.sharedManager.saveContext()
+
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -51,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
-        AMCoreDataStack.sharedManager.saveContext()
+
     }
 
 }

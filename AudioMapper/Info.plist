@@ -20,6 +20,8 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We will record your voice according to your will. Please allow this for proper functioning of the app</string>
     <key>NSContactsUsageDescription</key>
     <string>This app needs access to your contacts for displaying them. No privacy will be comprimised</string>
 	<key>UILaunchStoryboardName</key>

@@ -8,20 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		5F03F776BAA3918168EAFD6A /* Pods_AudioMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27696C1C02CFE26B3AFD6D36 /* Pods_AudioMapper.framework */; };
-		674BB1831E7470B4002437EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BB1821E7470B4002437EA /* AppDelegate.swift */; };
 		674BB1881E7470B4002437EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674BB1861E7470B4002437EA /* Main.storyboard */; };
-		674BB18B1E7470B4002437EA /* AudioMapper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 674BB1891E7470B4002437EA /* AudioMapper.xcdatamodeld */; };
 		674BB18D1E7470B4002437EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674BB18C1E7470B4002437EA /* Assets.xcassets */; };
 		674BB1901E7470B4002437EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674BB18E1E7470B4002437EA /* LaunchScreen.storyboard */; };
 		674BB19B1E7470B5002437EA /* AudioMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BB19A1E7470B5002437EA /* AudioMapperTests.swift */; };
-		67BE39681E757BB300AC30DC /* AMColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39671E757BB300AC30DC /* AMColor.swift */; };
-		67BE396A1E757E6E00AC30DC /* AMContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39691E757E6E00AC30DC /* AMContactManager.swift */; };
-		67BE396C1E758C5800AC30DC /* AMRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE396B1E758C5800AC30DC /* AMRootViewController.swift */; };
-		67BE396E1E75ACFA00AC30DC /* AMCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE396D1E75ACFA00AC30DC /* AMCoreDataStack.swift */; };
 		67BE39711E75AD7200AC30DC /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE396F1E75AD7200AC30DC /* Contact+CoreDataClass.swift */; };
 		67BE39721E75AD7200AC30DC /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39701E75AD7200AC30DC /* Contact+CoreDataProperties.swift */; };
-		67BE39751E75D23900AC30DC /* AMContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39741E75D23900AC30DC /* AMContactsViewController.swift */; };
-		67BE39771E75D2C400AC30DC /* AMContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39761E75D2C400AC30DC /* AMContactsCell.swift */; };
+		67BE398C1E76FDD600AC30DC /* AMRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE397F1E76FDD600AC30DC /* AMRootViewController.swift */; };
+		67BE398D1E76FDD600AC30DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39801E76FDD600AC30DC /* AppDelegate.swift */; };
+		67BE398E1E76FDD600AC30DC /* AMContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39821E76FDD600AC30DC /* AMContactsCell.swift */; };
+		67BE398F1E76FDD600AC30DC /* AMContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39831E76FDD600AC30DC /* AMContactsViewController.swift */; };
+		67BE39901E76FDD600AC30DC /* AMEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39841E76FDD600AC30DC /* AMEmptyCell.swift */; };
+		67BE39911E76FDD600AC30DC /* AMAudioContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39861E76FDD600AC30DC /* AMAudioContactsCell.swift */; };
+		67BE39921E76FDD600AC30DC /* AMAudioContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39871E76FDD600AC30DC /* AMAudioContactsViewController.swift */; };
+		67BE39931E76FDD600AC30DC /* AMColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE39891E76FDD600AC30DC /* AMColor.swift */; };
+		67BE39941E76FDD600AC30DC /* AMContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE398A1E76FDD600AC30DC /* AMContactManager.swift */; };
 		F091CE56145F916315BEB1FB /* Pods_AudioMapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C96892423578F053B04554 /* Pods_AudioMapperTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,23 +40,24 @@
 		27696C1C02CFE26B3AFD6D36 /* Pods_AudioMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		620B598A13339FEF6B5FC01A /* Pods-AudioMapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioMapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioMapperTests/Pods-AudioMapperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		674BB17F1E7470B4002437EA /* AudioMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		674BB1821E7470B4002437EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		674BB1871E7470B4002437EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		674BB18A1E7470B4002437EA /* AudioMapper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudioMapper.xcdatamodel; sourceTree = "<group>"; };
 		674BB18C1E7470B4002437EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		674BB18F1E7470B4002437EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		674BB1911E7470B4002437EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		674BB1961E7470B5002437EA /* AudioMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		674BB19A1E7470B5002437EA /* AudioMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMapperTests.swift; sourceTree = "<group>"; };
 		674BB19C1E7470B5002437EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67BE39671E757BB300AC30DC /* AMColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMColor.swift; sourceTree = "<group>"; };
-		67BE39691E757E6E00AC30DC /* AMContactManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMContactManager.swift; sourceTree = "<group>"; };
-		67BE396B1E758C5800AC30DC /* AMRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMRootViewController.swift; sourceTree = "<group>"; };
-		67BE396D1E75ACFA00AC30DC /* AMCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMCoreDataStack.swift; sourceTree = "<group>"; };
 		67BE396F1E75AD7200AC30DC /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Contact+CoreDataClass.swift"; path = "AudioMapper/Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
 		67BE39701E75AD7200AC30DC /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Contact+CoreDataProperties.swift"; path = "AudioMapper/Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		67BE39741E75D23900AC30DC /* AMContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMContactsViewController.swift; sourceTree = "<group>"; };
-		67BE39761E75D2C400AC30DC /* AMContactsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMContactsCell.swift; sourceTree = "<group>"; };
+		67BE397F1E76FDD600AC30DC /* AMRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMRootViewController.swift; sourceTree = "<group>"; };
+		67BE39801E76FDD600AC30DC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67BE39821E76FDD600AC30DC /* AMContactsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMContactsCell.swift; sourceTree = "<group>"; };
+		67BE39831E76FDD600AC30DC /* AMContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMContactsViewController.swift; sourceTree = "<group>"; };
+		67BE39841E76FDD600AC30DC /* AMEmptyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMEmptyCell.swift; sourceTree = "<group>"; };
+		67BE39861E76FDD600AC30DC /* AMAudioContactsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMAudioContactsCell.swift; sourceTree = "<group>"; };
+		67BE39871E76FDD600AC30DC /* AMAudioContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMAudioContactsViewController.swift; sourceTree = "<group>"; };
+		67BE39891E76FDD600AC30DC /* AMColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMColor.swift; sourceTree = "<group>"; };
+		67BE398A1E76FDD600AC30DC /* AMContactManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMContactManager.swift; sourceTree = "<group>"; };
 		77C96892423578F053B04554 /* Pods_AudioMapperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioMapperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90127CDE5C1E96C9E844F578 /* Pods-AudioMapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioMapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioMapperTests/Pods-AudioMapperTests.release.xcconfig"; sourceTree = "<group>"; };
 		C7B1FE240A07173EEEEC38C4 /* Pods-AudioMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioMapper/Pods-AudioMapper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,18 +119,14 @@
 		674BB1811E7470B4002437EA /* AudioMapper */ = {
 			isa = PBXGroup;
 			children = (
-				674BB1821E7470B4002437EA /* AppDelegate.swift */,
-				67BE39671E757BB300AC30DC /* AMColor.swift */,
-				67BE39691E757E6E00AC30DC /* AMContactManager.swift */,
-				67BE396B1E758C5800AC30DC /* AMRootViewController.swift */,
-				67BE396D1E75ACFA00AC30DC /* AMCoreDataStack.swift */,
-				67BE39741E75D23900AC30DC /* AMContactsViewController.swift */,
-				67BE39761E75D2C400AC30DC /* AMContactsCell.swift */,
+				67BE397E1E76FDD600AC30DC /* Root */,
+				67BE39811E76FDD600AC30DC /* Task 1 */,
+				67BE39851E76FDD600AC30DC /* Task 2 */,
+				67BE39881E76FDD600AC30DC /* Utils */,
 				674BB1861E7470B4002437EA /* Main.storyboard */,
 				674BB18C1E7470B4002437EA /* Assets.xcassets */,
 				674BB18E1E7470B4002437EA /* LaunchScreen.storyboard */,
 				674BB1911E7470B4002437EA /* Info.plist */,
-				674BB1891E7470B4002437EA /* AudioMapper.xcdatamodeld */,
 			);
 			path = AudioMapper;
 			sourceTree = "<group>";
@@ -149,6 +147,43 @@
 				67BE39701E75AD7200AC30DC /* Contact+CoreDataProperties.swift */,
 			);
 			name = "CoreData Model";
+			sourceTree = "<group>";
+		};
+		67BE397E1E76FDD600AC30DC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				67BE39801E76FDD600AC30DC /* AppDelegate.swift */,
+				67BE397F1E76FDD600AC30DC /* AMRootViewController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		67BE39811E76FDD600AC30DC /* Task 1 */ = {
+			isa = PBXGroup;
+			children = (
+				67BE39821E76FDD600AC30DC /* AMContactsCell.swift */,
+				67BE39831E76FDD600AC30DC /* AMContactsViewController.swift */,
+				67BE39841E76FDD600AC30DC /* AMEmptyCell.swift */,
+			);
+			path = "Task 1";
+			sourceTree = "<group>";
+		};
+		67BE39851E76FDD600AC30DC /* Task 2 */ = {
+			isa = PBXGroup;
+			children = (
+				67BE39861E76FDD600AC30DC /* AMAudioContactsCell.swift */,
+				67BE39871E76FDD600AC30DC /* AMAudioContactsViewController.swift */,
+			);
+			path = "Task 2";
+			sourceTree = "<group>";
+		};
+		67BE39881E76FDD600AC30DC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				67BE39891E76FDD600AC30DC /* AMColor.swift */,
+				67BE398A1E76FDD600AC30DC /* AMContactManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		D9622A39EC694F9B69169192 /* Frameworks */ = {
@@ -364,16 +399,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67BE39771E75D2C400AC30DC /* AMContactsCell.swift in Sources */,
-				67BE39681E757BB300AC30DC /* AMColor.swift in Sources */,
 				67BE39711E75AD7200AC30DC /* Contact+CoreDataClass.swift in Sources */,
-				67BE39751E75D23900AC30DC /* AMContactsViewController.swift in Sources */,
-				67BE396E1E75ACFA00AC30DC /* AMCoreDataStack.swift in Sources */,
-				67BE396C1E758C5800AC30DC /* AMRootViewController.swift in Sources */,
+				67BE39901E76FDD600AC30DC /* AMEmptyCell.swift in Sources */,
+				67BE39941E76FDD600AC30DC /* AMContactManager.swift in Sources */,
+				67BE398F1E76FDD600AC30DC /* AMContactsViewController.swift in Sources */,
 				67BE39721E75AD7200AC30DC /* Contact+CoreDataProperties.swift in Sources */,
-				674BB1831E7470B4002437EA /* AppDelegate.swift in Sources */,
-				67BE396A1E757E6E00AC30DC /* AMContactManager.swift in Sources */,
-				674BB18B1E7470B4002437EA /* AudioMapper.xcdatamodeld in Sources */,
+				67BE398E1E76FDD600AC30DC /* AMContactsCell.swift in Sources */,
+				67BE398C1E76FDD600AC30DC /* AMRootViewController.swift in Sources */,
+				67BE398D1E76FDD600AC30DC /* AppDelegate.swift in Sources */,
+				67BE39911E76FDD600AC30DC /* AMAudioContactsCell.swift in Sources */,
+				67BE39921E76FDD600AC30DC /* AMAudioContactsViewController.swift in Sources */,
+				67BE39931E76FDD600AC30DC /* AMColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,19 +635,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		674BB1891E7470B4002437EA /* AudioMapper.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				674BB18A1E7470B4002437EA /* AudioMapper.xcdatamodel */,
-			);
-			currentVersion = 674BB18A1E7470B4002437EA /* AudioMapper.xcdatamodel */;
-			path = AudioMapper.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 674BB1771E7470B4002437EA /* Project object */;
 }
